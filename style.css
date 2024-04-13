@@ -1,16 +1,47 @@
 body {
-    background: #000000;
+  background: #fff;
+	color: #00000;
+	border: #026564;
+	border: #033239;
+}
 
-    color: #00000;
+h1 {
+    text-align:center;
+    color: white;
+    font-family: "Menlo";
+}  
 
-    }
-    h1 {
+p {
+    color: white;
+    font-family: "Menlo";
+}
 
-    color: white
 
-    }
-    
-    p {
+/* cursors*/
+body {
+  cursor: url('customcursor.png') , auto;
+  }
+  
+  
+a {
 
-    color: white
-    }
+	cursor: url('custompointer.png'), auto;
+	}
+	
+	a:hover {
+	
+	cursor: url('custompointer.png'), auto;
+	}
+	a:active {
+	
+	cursor: url('custompointer.png'), auto;
+	}
+	
+  a:visited {
+    color:blue;
+	}
+
+
+
+
+
